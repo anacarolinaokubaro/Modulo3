@@ -1,0 +1,31 @@
+package br.com.ada.Revisao;
+
+public enum Estado {
+    Acre,
+    Alagoas,
+    Amapá,
+    Amazonas,
+    Bahia,
+    Ceará,
+    EspíritoSanto,
+    Goiás,
+    Maranhão,
+    MatoGrosso,
+    MatoGrossodoSul,
+    MinasGerais,
+    Pará,
+    Paraíba,
+    Paraná,
+    Pernambuco,
+    Piauí,
+    RiodeJaneiro,
+    RioGrandedoNorte,
+    RioGrandedoSul,
+    Rondônia,
+    Roraima,
+    SantaCatarina,
+    SãoPaulo,
+    Sergipe,
+    Tocantins,
+    DistritoFederal;
+}
