@@ -12,10 +12,8 @@ public class Dono {
 
     private static int id;
 
-    public Dono(String nome, String cpf, String email, Endereço endereço) {
+    public Dono(String nome, Endereço endereço) {
         this.nome = nome;
-        this.cpf = cpf;
-        this.email = email;
         this.endereço = endereço;
         this.id++;
     }
@@ -67,6 +65,7 @@ public class Dono {
                 ", cpf='" + cpf + '\'' +
                 ", email='" + email + '\'' +
                 ", endereço=" + endereço +
+                ", id= "+ id +
                 '}';
     }
 }

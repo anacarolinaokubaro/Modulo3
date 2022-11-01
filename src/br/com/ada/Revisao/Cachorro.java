@@ -74,6 +74,7 @@ public class Cachorro {
                 ", raca='" + raca + '\'' +
                 ", idade=" + idade +
                 ", dono=" + dono +
+                ", id = " + id +
                 '}';
     }
 }
